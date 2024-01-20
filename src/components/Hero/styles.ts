@@ -41,3 +41,38 @@ export const Content = styled.div`
     text-align: center;
   }
 `;
+
+export const PlayerContainer = styled.div`
+  max-width: 970px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+`;
+
+export const StartBtn = styled.button`
+  width: 144px;
+  color: ${colors.white};
+  background-color: ${colors.red};
+  border: none;
+  border-radius: 8px;
+  padding: 18px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+`;
+
+export const PlayBtn = styled.button`
+  width: 223px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 800;
+  color: ${colors.white};
+  font-size: 1.25rem;
+`;

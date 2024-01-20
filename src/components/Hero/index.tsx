@@ -1,6 +1,8 @@
 import { Menu } from "../Menu";
 import * as S from "./styles";
 
+import PlayImg from "../../assets/icons/play.png";
+
 export const Hero = () => {
   return (
     <S.Hero>
@@ -15,6 +17,13 @@ export const Hero = () => {
           artísticos são projetados para encantar, inspirar e transportar você
           para um mundo de criatividade e expressão.
         </p>
+        <S.PlayerContainer>
+          <S.StartBtn>Começar</S.StartBtn>
+          <S.PlayBtn>
+            <img src={PlayImg} alt="Botão Play" />
+            Assistir Vídeo
+          </S.PlayBtn>
+        </S.PlayerContainer>
       </S.Content>
     </S.Hero>
   );

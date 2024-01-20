@@ -4,6 +4,7 @@ export const colors = {
   white: "#FEFEFE",
   black: "#222222",
   red: "#F64348",
+  gray: "#5C5C5C",
 };
 
 const GlobalStyle = createGlobalStyle`
@@ -15,6 +16,10 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         font-family: 'Montserrat', sans-serif;
+    }
+
+    button {
+        cursor: pointer;
     }
 `;
 

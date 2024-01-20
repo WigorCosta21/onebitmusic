@@ -45,7 +45,6 @@ export const Btn = styled.button`
   color: ${colors.black};
   border: none;
   border-radius: 8px;
-  cursor: pointer;
   padding: 18px 0;
   text-transform: uppercase;
 `;
