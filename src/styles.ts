@@ -1,10 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 export const colors = {
-  white: "#FEFEFE",
-  black: "#222222",
-  red: "#F64348",
-  gray: "#5C5C5C",
+  primaryWhite: "#FEFEFE",
+  secondaryWhite: "#F9F9F9",
+  deepBlack: "#222222",
+  vibrantRed: "#F64348",
+  mediumGray: "#5C5C5C",
 };
 
 const GlobalStyle = createGlobalStyle`

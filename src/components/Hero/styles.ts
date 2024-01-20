@@ -21,14 +21,14 @@ export const Content = styled.div`
     width: 100%;
     margin: 0 auto;
     font-size: 4.5rem;
-    color: ${colors.white};
+    color: ${colors.primaryWhite};
     font-weight: bold;
     text-align: center;
     margin-top: 67px;
   }
 
   span {
-    color: ${colors.red};
+    color: ${colors.vibrantRed};
   }
 
   p {
@@ -37,8 +37,10 @@ export const Content = styled.div`
     margin: 0 auto;
     margin-top: 40px;
     font-size: 1.5rem;
-    color: ${colors.white};
+    line-height: 2.375rem;
+    color: ${colors.primaryWhite};
     text-align: center;
+    font-family: "Raleway", sans-serif;
   }
 `;
 
@@ -55,8 +57,8 @@ export const PlayerContainer = styled.div`
 
 export const StartBtn = styled.button`
   width: 144px;
-  color: ${colors.white};
-  background-color: ${colors.red};
+  color: ${colors.primaryWhite};
+  background-color: ${colors.vibrantRed};
   border: none;
   border-radius: 8px;
   padding: 18px 0;
@@ -73,6 +75,6 @@ export const PlayBtn = styled.button`
   align-items: center;
   gap: 20px;
   font-weight: 800;
-  color: ${colors.white};
+  color: ${colors.primaryWhite};
   font-size: 1.25rem;
 `;

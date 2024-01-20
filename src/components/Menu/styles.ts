@@ -30,7 +30,7 @@ export const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: ${colors.white};
+    color: ${colors.primaryWhite};
     text-transform: uppercase;
     font-weight: 600;
     font-size: 0.875rem;
