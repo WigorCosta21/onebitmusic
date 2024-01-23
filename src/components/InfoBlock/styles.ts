@@ -13,6 +13,7 @@ type ContentInfoProps = {
 export const Container = styled.section`
   width: 100%;
   background: ${colors.mediumGray};
+  padding: 0 16px;
 
   .content-reverse {
     flex-direction: row-reverse;

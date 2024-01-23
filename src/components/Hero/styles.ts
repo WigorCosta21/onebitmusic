@@ -9,6 +9,7 @@ export const Hero = styled.div`
   background-image: url(${HeroImg});
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0 16px;
 `;
 
 export const Content = styled.div`
