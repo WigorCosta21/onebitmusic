@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { colors } from "../../styles";
 
 type TdProps = {
-  width: string;
   fontWeight: string;
 };
 
@@ -22,11 +21,9 @@ export const Th = styled.th`
 `;
 
 export const Td = styled.td<TdProps>`
-  max-width: ${(props) => props.width};
-  min-width: ${(props) => props.width};
   font-weight: ${(props) => props.fontWeight};
   vertical-align: top;
-  padding: 40px;
+  padding: 40px 30px;
   border-bottom: 1px solid ${colors.secondaryWhite};
 
   &.aside {

@@ -49,16 +49,14 @@ export const Table = () => {
         </tr>
 
         <tr>
-          <S.Td width="230px" fontWeight="400">
-            12:00 PM to 03:00 PM
-          </S.Td>
-          <S.Td width="370px" fontWeight="700">
+          <S.Td fontWeight="400">12:00 PM to 03:00 PM</S.Td>
+          <S.Td fontWeight="700">
             O trio que vai levar você a uma jornada musical com suas harmonias
             vocais encantadoras e arranjos instrumentais cativantes. Prepare-se
             para desfrutar de um repertório diversificado que abrange diversos
             estilos musicais e emocione seus sentidos.
           </S.Td>
-          <S.Td width="270px" fontWeight="700">
+          <S.Td fontWeight="700">
             <S.Avatar>
               <img src={BobJohn} alt="Artista Bob John" />
               <div>
@@ -81,7 +79,7 @@ export const Table = () => {
               </div>
             </S.Avatar>
           </S.Td>
-          <S.Td width="200px" fontWeight="700" className="aside">
+          <S.Td fontWeight="700" className="aside">
             <S.Aside className="live">
               Ao Vivo
               <img src={Watch} alt="Icone assistir" />
@@ -115,7 +113,7 @@ export const Table = () => {
               </div>
             </S.Avatar>
           </S.Td>
-          <S.Td width="200px" fontWeight="700" className="aside">
+          <S.Td fontWeight="700" className="aside">
             <S.Aside>
               Em breve
               <img src={Clock} alt="Icone relógio" />
