@@ -56,18 +56,6 @@ export const PlayerContainer = styled.div`
   gap: 40px;
 `;
 
-export const StartBtn = styled.button`
-  width: 144px;
-  color: ${colors.primaryWhite};
-  background-color: ${colors.vibrantRed};
-  border: none;
-  border-radius: 8px;
-  padding: 18px 0;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-`;
-
 export const PlayBtn = styled.button`
   width: 223px;
   border: none;

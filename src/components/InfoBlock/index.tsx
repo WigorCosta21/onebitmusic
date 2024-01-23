@@ -7,6 +7,7 @@ import Artist4 from "../../assets/images/artist_4.png";
 import Arrow from "../../assets/icons/arrow.png";
 
 import * as S from "./styles";
+import { Btn } from "../Btn";
 
 export const InfoBlock = () => {
   return (
@@ -25,9 +26,9 @@ export const InfoBlock = () => {
             limites físicos e levam você a novos patamares de entretenimento
             musical.
           </S.Paragraph>
-          <S.Btn width="176px">
+          <Btn width="176px" padding="20px">
             Ler mais <img src={Arrow} alt="Seta para direita" />
-          </S.Btn>
+          </Btn>
         </S.ContentAbout>
       </S.ContentInfo>
       <S.ContentInfo className="content-reverse" paddingTop="190px" gap="30px">
@@ -58,9 +59,9 @@ export const InfoBlock = () => {
             evento. Os artistas da OneBitMusic estão prontos para levar você a
             uma jornada musical única e inesquecível.
           </S.Paragraph>
-          <S.Btn width="283px">
+          <Btn width="283px" padding="20px">
             Veja a lista completa <img src={Arrow} alt="Seta para direita" />
-          </S.Btn>
+          </Btn>
         </S.ContentAbout>
       </S.ContentInfo>
     </S.Container>

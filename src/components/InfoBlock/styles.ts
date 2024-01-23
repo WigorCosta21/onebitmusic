@@ -1,10 +1,6 @@
 import styled from "styled-components";
 import { colors } from "../../styles";
 
-type BtnProps = {
-  width: string;
-};
-
 type ContentInfoProps = {
   paddingTop: string;
   gap: string;
@@ -60,21 +56,7 @@ export const Paragraph = styled.p`
   color: ${colors.secondaryWhite};
   opacity: 0.7;
   font-family: "Raleway", sans-serif;
-`;
-
-export const Btn = styled.button<BtnProps>`
-  width: ${(props) => props.width};
-  margin-top: 80px;
-  padding: 20px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: ${colors.deepBlack};
-  border: none;
-  border-radius: 8px;
+  margin-bottom: 80px;
 `;
 
 export const CardImg = styled.div`

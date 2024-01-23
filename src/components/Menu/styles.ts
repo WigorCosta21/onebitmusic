@@ -36,15 +36,3 @@ export const Nav = styled.nav`
     font-size: 0.875rem;
   }
 `;
-
-export const Btn = styled.button`
-  width: 258px;
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: ${colors.white};
-  color: ${colors.black};
-  border: none;
-  border-radius: 8px;
-  padding: 18px 0;
-  text-transform: uppercase;
-`;

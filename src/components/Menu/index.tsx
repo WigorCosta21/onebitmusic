@@ -2,6 +2,7 @@ import LogoImg from "../../assets/images/onebitcode.png";
 import CaminhoImg from "../../assets/images/caminho.png";
 
 import * as S from "./styles";
+import { Btn } from "../Btn";
 
 export const Menu = () => {
   return (
@@ -25,7 +26,9 @@ export const Menu = () => {
             <a href="#">contato</a>
           </li>
           <li>
-            <S.Btn>comprar ingressos</S.Btn>
+            <Btn width="258px" padding="20px">
+              COMPRAR INGRESSOS
+            </Btn>
           </li>
         </ul>
       </S.Nav>

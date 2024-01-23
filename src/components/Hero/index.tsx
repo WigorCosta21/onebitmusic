@@ -2,6 +2,8 @@ import { Menu } from "../Menu";
 import * as S from "./styles";
 
 import PlayImg from "../../assets/icons/play.png";
+import { Btn } from "../Btn";
+import { colors } from "../../styles";
 
 export const Hero = () => {
   return (
@@ -18,7 +20,14 @@ export const Hero = () => {
           para um mundo de criatividade e expressão.
         </p>
         <S.PlayerContainer>
-          <S.StartBtn>Começar</S.StartBtn>
+          <Btn
+            width="144px"
+            padding="20px"
+            backgroudColor={colors.vibrantRed}
+            color={colors.primaryWhite}
+          >
+            Começar
+          </Btn>
           <S.PlayBtn>
             <img src={PlayImg} alt="Botão Play" />
             Assistir Vídeo
