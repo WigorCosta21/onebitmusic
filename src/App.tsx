@@ -1,4 +1,5 @@
 import { Cards } from "./components/Cards";
+import { Contact } from "./components/Contact";
 import { Hero } from "./components/Hero";
 import { InfoBlock } from "./components/InfoBlock";
 import { Investors } from "./components/Investors";
@@ -12,6 +13,7 @@ export const App = () => {
       <ShowList />
       <Cards />
       <Investors />
+      <Contact />
     </div>
   );
 };

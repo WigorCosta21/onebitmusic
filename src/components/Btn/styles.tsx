@@ -16,4 +16,5 @@ export const BtnContainer = styled.button<BtnProps>`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `;
